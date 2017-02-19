@@ -19,5 +19,16 @@
             id="bpmnTest.perspective">
       </perspective>
    </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="org.eclipse.bpmn2.modeler.ui.editor.BPMN2MultiPageEditor"
+            contributorClass="org.eclipse.ui.part.MultiPageEditorActionBarContributor"
+            default="false"
+            icon="icons/alt_launcher.ico"
+            id="bpmnTest.editor1"
+            name="bpmnEditor">
+      </editor>
+   </extension>
 
 </plugin>
